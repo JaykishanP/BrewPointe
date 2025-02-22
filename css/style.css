@@ -621,15 +621,19 @@ section{
 }
 
 .food-menu-desc{
-    max-width: 83%;
+    /* max-width: 83%; */
     float: left;
-    margin: 1.5rem 0 1.5rem 1.5rem;
+    margin: 1.5rem 0 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
+
 .food-detail {
     font-size: 1.6rem;
     line-height: 1.4;
     color: #fff;
     padding: 1rem 0 0 0;
+    /* max-width: 80%; */
 }
 .newOne {
     border-top: 1px solid var(--main-color);
@@ -637,6 +641,9 @@ section{
     margin: 3rem 0 0 0;
 }
 .ipad-wings{
+    visibility: hidden;
+}
+.visi-hidd{
     visibility: hidden;
 }
 
@@ -662,8 +669,12 @@ section{
 .food-menu .section-dishes {
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding: 1rem 0 0rem 0;
 }
 .ipad-wings {
+    display: none;
+}
+.visi-hidd{
     display: none;
 }
 
@@ -725,3 +736,6 @@ section{
     }
     
     }
+
+
+    /* ========== New CSS ======= */
